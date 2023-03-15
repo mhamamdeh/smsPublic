@@ -10,8 +10,10 @@ COPY . .
 
 EXPOSE 3000
 
-CMD ["docker", "run", "-p", "3000:3000", "my-node-app"]
+CMD ["npm", "start"]
 
+# Run the container
+docker run -p 3000:3000 mynodeapp
 
 
 docker build -t mynodeapp .
