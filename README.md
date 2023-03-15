@@ -10,7 +10,7 @@ COPY . .
 
 EXPOSE 3000
 
-CMD ["npm", "start"]
+CMD ["docker", "run", "-p", "3000:3000", "my-node-app"]
 
 
 
