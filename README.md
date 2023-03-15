@@ -16,3 +16,8 @@ CMD ["npm", "start"]
 
 docker build -t mynodeapp .
 docker run -p 3000:3000 mynodeapp
+
+
+
+
+Dockerfile
